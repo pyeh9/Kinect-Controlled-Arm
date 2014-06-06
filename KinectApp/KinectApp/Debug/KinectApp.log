@@ -1,0 +1,15 @@
+﻿Build started 12/5/2013 12:54:52 PM.
+     1>Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\KinectApp\KinectApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt KinectApp.cpp
+         KinectApp.cpp
+     1>c:\users\ben\documents\visual studio 2012\projects\kinectapp\kinectapp\kinectapp.cpp(156): warning C4244: 'return' : conversion from 'double' to 'FLOAT', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\Debug\KinectApp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" "C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\x86\Kinect10.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\Debug\KinectApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\Debug\KinectApp.lib" /MACHINE:X86 Debug\KinectApp.obj
+         Debug\stdafx.obj
+         KinectApp.vcxproj -> C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\Debug\KinectApp.exe
+     1>Done Building Project "C:\Users\Ben\Documents\Visual Studio 2012\Projects\KinectApp\KinectApp\KinectApp.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.35
